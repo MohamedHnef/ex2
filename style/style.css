@@ -59,7 +59,6 @@ nav a.active, nav a:hover {
 }
 
 
-
 /* Footer */
 footer {
     position: relative; 
@@ -99,8 +98,7 @@ footer {
     color: #333;
     font-size: 18px;
     font-weight: 700;
-    line-height: 28px;
-    
+    line-height: 28px;  
 }
 
 .footer-section ul {
@@ -165,6 +163,7 @@ footer {
     line-height: normal;
     max-width: 500px;
 }
+
 
 /* About section styling */
 .about {
@@ -323,26 +322,20 @@ footer {
 }
 
 .book-details .heart-icon {
-    width: 24px;
-    height: 20px;
+    width: fit-content;
+    height: fit-content;
     z-index: 1;
     
 }
 
 
-
-
-
 /* second page style */
 .content-wrapper {
     padding-left: 32px; 
-    
     box-sizing: border-box; 
     width: calc(100% - 32px); 
     margin: 0 auto; 
 }
-
-
 
 
 /* Product images section */
@@ -417,8 +410,6 @@ footer {
     top: 19px; 
     left: 26.5px; 
 }
-
-
 
 
 /* Form section */
