@@ -83,7 +83,9 @@ footer {
     left: 32px;
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
+    
 }
+
 
 .footer-section a {
     color: #333;
@@ -112,7 +114,7 @@ footer {
 }
 
 .footer-section ul li:last-child {
-    margin-bottom: 49px;
+    margin-bottom: 24px;
 }
 
 .footer-social {
