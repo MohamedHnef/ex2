@@ -5,14 +5,11 @@ body, html {
     font-family: 'Nunito';
     background-color: #fff;  
 }
-
-/* Wrapper for entire content */
 .wrapper {
     width: 100%;
     margin: 0 auto; 
     padding-bottom: 287px;
 }
-
 /* Header styling */
 header {
     display: flex;
@@ -20,18 +17,15 @@ header {
     align-items: center;
     padding: 32px; 
 }
-
 .logo {
     display: flex;
     align-items: center;
 }
-
 .logo img {
    
     width: 64px;
     height: 64px;
 }
-
 .logo span {
     color: #3E3F43;
     font-family: Nunito;
@@ -41,8 +35,6 @@ header {
     line-height: normal;
     letter-spacing: 6px;
 }
-
-
 nav a {
     text-decoration: none;
     padding: 48px 64px 39px;
@@ -53,13 +45,10 @@ nav a {
     font-weight: 400;
     line-height: normal;
 }
-
 nav a.active, nav a:hover {
     color: #612999;
     font-weight: bold;
 }
-
-
 /* Footer */
 footer {
     position: fixed;
@@ -73,13 +62,11 @@ footer {
     box-sizing: border-box;
     z-index: 1000; /* Ensure it stays above other content */
 }
-
 .footer-content {
     display: flex;
     position: relative;
     height: 100%;
 }
-
 .footer-section {
     position: absolute;
     top: 14px;
@@ -87,7 +74,6 @@ footer {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
 }
-
 .footer-section a {
     color: #333;
     font-family: 'Nunito', sans-serif;
@@ -96,46 +82,36 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
-
 .footer-section h3 {
     color: #333;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
 }
-
 .footer-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .footer-section ul li {
     margin-bottom: 8px;
 }
-
 .footer-section ul li:last-child {
     margin-bottom: 24px;
 }
-
 .footer-social {
     display: flex;
     justify-content: start;
     gap: 24px;
 }
-
 .footer-social a img {
     width: 24px;
     height: auto;
 }
-
 .footer-bottom {
     margin-top: 16px;
     font-size: 14px;
 }
-
-
-
 /* Hero section styling */
 .hero {
     background: url('../images/book-bg.jpg') no-repeat center center; 
@@ -144,7 +120,6 @@ footer {
     min-height: 797px;
     position: relative;
 }
-
 .hero h1 {
     margin: 0; 
     padding-left: 32px;
@@ -154,7 +129,6 @@ footer {
     font-size: 96px;
     font-weight: 800;
 }
-
 .hero p {
     margin: 0; 
     padding-left: 32px;
@@ -167,14 +141,10 @@ footer {
     line-height: normal;
     max-width: 500px;
 }
-
-
 /* About section styling */
 .about {
-    
     padding: 32px 32px 0px 32px;
 }
-
 .about h2 {
     margin-top: 0; 
     color: #612999;
@@ -184,7 +154,6 @@ footer {
     font-weight: 500;
     line-height: 40px; 
 }
-
 .about p{
     color: #000;
     text-align: justify;
@@ -195,14 +164,11 @@ footer {
     line-height: 140.625%; 
     
 }
-
-
 /* Books section styling */
 .books-section {
     padding-left: 32px; 
     padding-right: 32px; 
 }
-
 .books-section h2 {
     margin-bottom: 32px; 
     color: #612999;
@@ -210,14 +176,12 @@ footer {
     font-size: 40px;
     font-weight: 500;
 }
-
 .popular-books {
     display: grid;
     grid-template-columns: repeat(auto-fill, 376px); 
     gap: 32px; 
     padding-bottom: 32px; 
 }
-
 .book-card {
     position: relative; 
     width: 376px; 
@@ -229,14 +193,12 @@ footer {
     background: #EFECFF;
     box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
 }
-
 .book-card img {
     width: 100%; 
     height: 276px;
     object-fit: cover;
     border-radius: 38px;
 }
-
 .book-details {
     position: absolute;
     top: 0;
@@ -248,7 +210,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .book-details h3 {
     position: absolute;
     top: 297px; 
@@ -259,7 +220,6 @@ footer {
     font-size: 30px;
     font-weight: 400;
 }
-
 .book-details p {
     position: absolute;
     top: 330px; 
@@ -270,7 +230,6 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
-
 .book-details .price {
     position: absolute;
     left: 32px;
@@ -280,7 +239,6 @@ footer {
     font-size: 35px;
     font-weight: 400;
 }
-
 .book-details .cart-icon-container {
     position: absolute;
     right: 57px; 
@@ -288,13 +246,11 @@ footer {
     width: 63px; 
     height: 63px;
 }
-
 .book-details .ellipse {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-
 .book-details .cart-icon {
     width: 31px; 
     height: 31px;
@@ -304,7 +260,6 @@ footer {
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
-
 .book-details .wishlist-btn {
     position: absolute;
     right: 52px; 
@@ -318,13 +273,11 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .book-details .ellipse-heart {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-
 .book-details .heart-icon {
     width: fit-content;
     height: fit-content;
@@ -332,8 +285,6 @@ footer {
     border-radius: 1px;
     
 }
-
-
 /* second page style */
 .content-wrapper {
     padding-left: 32px; 
@@ -342,34 +293,27 @@ footer {
     margin: 0 auto; 
     padding-bottom: 287px;
 }
-
-
 /* Product images section */
 .product-images {
     padding-top: 42px; 
 }
-
 .images-container {
     display: flex;
     gap: 32px;
      
 }
-
 .product-image {
     border: 4px solid #E6DBFE;
     /* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
 }
-
 .product-image:first-child, .product-image:last-child {
     width: 300px;
     height: 300px;
 }
-
 .product-image:nth-child(2) {
     width: 388.268px;
     height: 300px;
 }
-
 /* Product list section */
 .product-list h2 {
     margin-top: 32px;
@@ -378,13 +322,11 @@ footer {
     font-size: 40px;
     font-weight: 500;
 }
-
 .product-list ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .product-list li {
     display: flex;
     align-items: center;
@@ -396,20 +338,17 @@ footer {
     font-weight: 400;
     line-height: 14px; 
 }
-
 .icon-container {
     position: relative;
     width: 82px;
     height: 82px;
     margin-right: 16px;
 }
-
 .circle-icon {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-
 .rocket-icon {
     width: 29px;
     height: 42.385px;
@@ -417,8 +356,6 @@ footer {
     top: 19px; 
     left: 26.5px; 
 }
-
-
 /* Form section */
 .Form-Section {
     margin-top: 32px;
@@ -427,30 +364,25 @@ footer {
     margin-right: 32px;
     margin-bottom: 198px;
 }
-
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 16px; 
 }
-
 .form-group {
     display: flex;
     flex-direction: column;
 }
-
 .form-group label {
     margin-bottom: 8px;
     font-weight: bold;
 }
-
 .form-group input {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
 }
-
 .submit-button {
     padding: 10px 20px;
     border: none;
@@ -460,7 +392,6 @@ footer {
     font-size: 16px;
     cursor: pointer;
 }
-
 .submit-button:hover {
     background-color: #4e207e;
 }
